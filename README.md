@@ -95,8 +95,39 @@ menu.addEventListener('click', function () {
     menuLinks.classList.toggle('active');
 });
 ```
+```
+# 🚀 Project Name
+
+## 🌟 Overview
+A brief description of your project. What problem does it solve? Why is it useful?  
+
+## 🎯 Features
+- 🔹 Feature 1
+- 🔹 Feature 2
+- 🔹 Feature 3
+
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript (or React, Vue, etc.)
+- **Backend**: Python (Flask, Django, FastAPI, etc.)
+- **Blockchain (if applicable)**: Solidity, Foundry, Hardhat
+- **Database**: PostgreSQL, MongoDB, etc.
+
+## ⚡ Installation
+```bash
+# Clone the repository
+git clone https://github.com/your-username/project-name.git
+
+# Navigate to the project directory
+cd project-name
+
+# Install dependencies
+npm install  # or pip install -r requirements.txt
+
+# Start the project
+npm start  # or python app.py
+```
 📜 License
-This project is open-source and available under the MIT License.
+This project is open-source and available.
 
 🤝 Contributing
 Feel free to submit issues or pull requests to improve this project!
