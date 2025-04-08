@@ -26,7 +26,7 @@ This project implements a **responsive mobile navigation menu** using **HTML, CS
 ## 🏗️ Installation & Usage  
 ### 1️⃣ Clone the Repository  
 ```
-git clone https://github.com/your-username/mobile-menu.git  
+git clone https://github.com/Cfuna22/myFirstHackathon.git
 cd mobile-menu
 2️⃣ Open index.html in a browser
 No installation needed! Just open the file in a browser and test it.
