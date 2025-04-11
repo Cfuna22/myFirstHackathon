@@ -9,7 +9,7 @@
 <body>
     <h1 class="heading"><i>SignUp today for the best Experience</i></h1>
     <div class="form-container">
-        <form action="/tech.html" class="form">
+        <form action="tech.html" class="form">
             <label for="full_name" id="c1">Full Name:</label>
             <input class="input" type="text" id="full_name" name="full_name" required 
             placeholder="Your Full Name">
@@ -31,14 +31,23 @@
             <br><br>
             <div class="button-container">
                 <label for="gender" id="c2">Gender:</label>
-                <input type="radio" name="gender" value="male">Male
-                <input type="radio" name="gender" value="female">Female
+                <input type="radio" id="gender_male" name="gender" value="male" title="Select Male">
+                <label for="gender_male">Male</label>
+                <input type="radio" name="gender" value="female" title="Select Female">Female
                 <br><br>
                 <label for="hobby" id="c2">Language:</label>
-                <input class="input" type="checkbox" name="hobby" value="travel">HTML:5
-                <input class="input" type="checkbox" name="hobby" value="music">CSS
-                <input class="input" type="checkbox" name="hobby" value="reading">JavaScript
-                <input class="input" type="checkbox" name="hobby" value="swimming">Python
+                <label>
+                    <input class="input" type="checkbox" name="hobby" value="travel" title="Select HTML5">HTML:5
+                </label>
+                <label>
+                    <input class="input" type="checkbox" name="hobby" value="music" title="Select CSS">CSS
+                </label>
+                <label>
+                    <input class="input" type="checkbox" name="hobby" value="reading" title="Select JavaScript">JavaScript
+                </label>
+                <label>
+                    <input class="input" type="checkbox" name="hobby" value="swimming" title="Select Python">Python
+                </label>
                 <br><br>
                 <label for="country" id="c2">Country</label>
                 <select name="country" id="country">
@@ -48,13 +57,13 @@
                 <option value="">Nigeria</option>
                 <option value="">Rwanda</option>
                 </select><br><br>
-                <button id="c3">Submit</button>
+                <button id="c3" type="submit">Submit</button>
                 <div class="reset-button-container">
                     <input  class="reset-button" type="reset" value="cancel/Reset">
                 </div>
             </div>    
         </form>
     </div> 
-    <script src="/app.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
